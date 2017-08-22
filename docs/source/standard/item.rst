@@ -140,3 +140,15 @@ Schema
 
     |ocdsDescription|
     Name of the unit
+    
+:value:
+    dictionary
+    
+    Unit value details
+    
+    :currency:
+        string, required
+    :amount:
+        integer, required
+    :valueAddedTaxIncluded:
+        boolean, required
